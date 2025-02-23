@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Recursively changes the storage class of all objects in the specified bucket/prefix.
+#
 # Requires: jq, aws-cli
 #
 # NOTE: This assumes that objects already exist in a class with "Immediate" restore time, or have already been restored
